@@ -1,0 +1,9 @@
+/* Netlify _redirects file for SPA routing */
+/* Handles client-side routing for Vite apps */
+/* Place this file in your build output directory (dist) */
+/* Redirect all requests to index.html */
+
+/* Netlify SPA Redirect */
+/* Uncomment below if using client-side routing (e.g., React Router)
+/* /    /index.html   200 */
+
