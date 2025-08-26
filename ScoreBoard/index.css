@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Cursed Timer";
+    src: url("cursed.ttf")
+}
+
+body {
+    margin: 0;
+    color: white;
+    font-family: "Helvetica";
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    border-radius: 10px;
+    margin : 10px 50px;
+    padding: 25px 0px;
+    width: 500px;
+}
+.side-ct {
+    color: #F94F6D;
+    font-family: "Cursed Timer";
+    font-size: 75px;
+    background-color: black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    
+}
+.side-el{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    display: inline;
+    
+}
+.main-btns{
+    background-color: #1B244A;
+    font-family: "Cursed Timer";
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    color: white;
+    margin: 0 5px;
+}
+
+.main-btns:hover{
+    background-color: #9AABD8;
+}
+#new{
+    background-color: #1B244A;
+    font-family: "Cursed Timer";
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+}
